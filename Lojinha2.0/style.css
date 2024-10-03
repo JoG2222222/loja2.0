@@ -1,0 +1,27 @@
+#usgurizes{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-small;
+}
+
+img{
+    border-radius: 15px;
+}
+nav{
+    background-color: gainsboro;
+}
+table{
+    background-color: palegreen;
+}
+header{
+    background-color: palegreen;
+}
+body{
+    background-color: gainsboro;
+}
+footer{
+    text-align: left;
+}
+body{
+    text-align: center;
+}
+

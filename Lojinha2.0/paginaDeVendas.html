@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="paginaDeVendas.css">
+</head>
+<body>
+    <header>
+        <h1>Hoop & Slam!</h1>
+    </header>
+   
+    <nav id="nav1">
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="paginaDeVendas.html">Pagina venda</a>
+        <a href="históricoDeVendas.html">Histórico de vendas</a>
+    </nav>
+ 
+    <main>
+    <h2>Adicionar Produto</h2>
+    <form action="">
+        <section>
+            <label for="link-foto">Nome do produto: </label>
+            <input type="url" id="link-foto" name="link-foto">
+        </section>
+       
+        <section>
+            <label for="descricao">Descrição do produto: </label>
+            <!-- Adicione o id apropriado para o input abaixo -->
+            <input type="text" id="descricao-produto" name="descrição">
+        </section>
+       
+        <section>
+            <label for="preco">Preço (em R$): </label>
+            <!-- Adicione o id apropriado e o type para receber números abaixo -->
+            <input type="number" id="preco-produto" name="preço">
+        </section>
+       
+        <br><label>Opções de pagamento:</label><br>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="cartao" value="cartao">
+            <label for="cartao">Cartão</label><br>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="hora-entrega" value="dinheiro">
+            <label for="DINHEIRO">Pagamento na entrega-dinheiro</label><br>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="pix" value="pix">
+            <label for="PIX">Pix</label><br>
+        </section>
+ 
+        <input type="submit" value="Enviar">
+    </main>
+ 
+    <footer id="usgurizes">
+        <img src="https://a.espncdn.com/i/teamlogos/nba/500-dark/bos.png" ALT="celtics secreto" width="20px" height="20px">
+        <p>Produced by jg 2024</p>
+    </footer>
+ 
+ 
+   
+</body>
+</html>
